@@ -4,7 +4,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BankPropertiesComponent } from './components/bank-properties/bank-properties.component';
 import { PrivatePropertiesComponent } from './components/private-properties/private-properties.component';
-import { AboutUsComponent } from './about-us/about-us.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-iba.component';
 
