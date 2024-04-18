@@ -5,6 +5,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { MoreComponent } from './more/more.component';
 import { BankPropertiesComponent } from './components/bank-properties/bank-properties.component';
 import { PrivatePropertiesComponent } from './components/private-properties/private-properties.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-iba.component';
 
 const routes: Routes = [
   {
@@ -14,9 +17,12 @@ const routes: Routes = [
   },
   { path: "home", component: HomeComponent},
   { path: "contact", component: ContactComponent},
-  { path: "more", component: MoreComponent},  
   { path: "bank-properties", component: BankPropertiesComponent},  
-  { path: "private-properties", component: PrivatePropertiesComponent}  
+  { path: "private-properties", component: PrivatePropertiesComponent},
+  { path: "more", component: MoreComponent},
+  { path: "about-us", component: AboutUsComponent},
+  { path: "faq", component: FaqComponent},
+  { path: "artical", component: ArticalOnIBAComponent},
 ];
 
 @NgModule({

@@ -7,6 +7,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import { MoreComponent } from './more/more.component';
 import { BankPropertiesComponent } from './components/bank-properties/bank-properties.component';
 import { PrivatePropertiesComponent } from './components/private-properties/private-properties.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { FaqComponent } from './components/faq/faq.component';
+import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-iba.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { PrivatePropertiesComponent } from './components/private-properties/priv
     ContactComponent,
     MoreComponent,
     BankPropertiesComponent,
-    PrivatePropertiesComponent
+    PrivatePropertiesComponent,
+    AboutUsComponent,
+    FaqComponent,
+    ArticalOnIBAComponent
   ],
   imports: [
     CommonModule,
