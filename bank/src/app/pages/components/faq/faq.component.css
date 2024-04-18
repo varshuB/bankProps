@@ -117,7 +117,7 @@ li {
 }
 .title {
     background: #FF385C;
-    color: #fff;
+    color:black;
     padding: 13px;
     transition: all 0.3s ease;
     cursor: pointer;
