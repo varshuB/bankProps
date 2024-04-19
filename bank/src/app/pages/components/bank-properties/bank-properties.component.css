@@ -1,0 +1,20 @@
+@import "../../../../assets/css/styles.css";
+
+
+.sortBy {
+    font-weight: 600;
+    letter-spacing: .93px !important;
+}
+
+.listBtn {
+    color: #121B22 !important;
+    border: 1px solid #121B22;
+    margin-left: 5px;
+    border-radius: 2px;
+    background: transparent;
+    padding: 5px 9px;
+}
+
+.inner-pages .active-view-btn {
+    background: #121B22 !important;
+}
