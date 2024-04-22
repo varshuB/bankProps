@@ -1,6 +1,5 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { PagesRoutingModule } from './pages-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -26,6 +25,7 @@ import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-ib
     CommonModule,
     PagesRoutingModule,
     CarouselModule
-  ]
+  ],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class PagesModule { }

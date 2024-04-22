@@ -21,6 +21,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
     RouterModule
   ],
   providers: [provideClientHydration()],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports:[]
+
 })
 export class AppModule { }
