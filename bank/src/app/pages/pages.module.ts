@@ -5,7 +5,7 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MoreComponent } from './more/more.component';
-
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,8 @@ import { MoreComponent } from './more/more.component';
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    CarouselModule
   ]
 })
 export class PagesModule { }
