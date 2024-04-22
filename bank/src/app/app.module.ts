@@ -5,7 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutModule } from "./layout/layout.module";
 import { PagesModule } from './pages/pages.module';
-
+import { RouterModule } from '@angular/router';
+import{BrowserAnimationsModule} from '@angular/platform-browser/animations'
+// import {MatExpansionModule} from "@angular/material/expansion";
+// import { MaterialModule } from '@angular/material';
+import {CarouselModule} from 'ngx-owl-carousel-o';
 @NgModule({
   declarations: [
     AppComponent
@@ -14,9 +18,17 @@ import { PagesModule } from './pages/pages.module';
     BrowserModule,
     AppRoutingModule,
     LayoutModule,
-    PagesModule
+    PagesModule,
+    RouterModule,
+    BrowserAnimationsModule,
+    CarouselModule
+    // CarouselModule
+    // MatExpansionModule,
+    // MaterialModule
   ],
   providers: [provideClientHydration()],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports:[]
+
 })
 export class AppModule { }

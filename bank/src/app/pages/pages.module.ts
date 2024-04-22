@@ -1,6 +1,5 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
 import { PagesRoutingModule } from './pages-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -9,6 +8,7 @@ import { PrivatePropertiesComponent } from './components/private-properties/priv
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-iba.component';
+import {CarouselModule} from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -23,7 +23,9 @@ import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-ib
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
-  ]
+    PagesRoutingModule,
+    CarouselModule
+  ],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class PagesModule { }
