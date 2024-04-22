@@ -2,77 +2,15 @@
 .headhome{
     margin-top: 80px;
 }
-/* *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-
-} */
-body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background:white;
-}
-.wrapper{
-    display: inline-flex;
-}
-.wrapper {
-    color:#fff;
-    font-size:60px;
-    font-weight: 400;
-}
-.static-txt{
-    color:#fff;
-    font-size:60px;
-    font-weight: 400;
-}
-.wrapper .dynamic-txts{
-  margin-left:15px ;
-  height:90px;
-  line-height:80px ;
-  /* background:red; */
-  overflow: hidden;
-}
-.dynamic-txts li{
-    color:white;
-    list-style: none;
-    font-size: 60px;
-    font-weight:500 ;
-    position: relative;
-    top:0;
-    animation: slide 1.5s steps(4) infinite;
-
-}
-@keyframes slide{
-    100%{
-        left:100%;
-        top:-360px;
-    }
-}
-.dynamic-txts li span{
-    position: relative;
-}
-.dynamic-txts li span::after{
-    content:"";
-    position:absolute;
-    left:0;
-    height: 100%;
-    width:100%;
-    /* background: #343F4F; */
-    /* border-left: 2px solid #fff; */
-    animation: typing 1.5s steps(15) infinite;
-}
-@keyframes typing{
-    100%{
-        left:100%;
-        margin: 0 -35px 0 35px;
-    }
-}
 
 .carouselSlidecl{
    padding: 10px;
    height:100px;
    width:200px;
+}
+.carouselSlidec2{
+    height: 500px;
+}
+.containerdi{
+    
 }
