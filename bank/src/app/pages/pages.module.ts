@@ -9,6 +9,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-iba.component';
 import {CarouselModule} from 'ngx-owl-carousel-o';
+import {NgxTypedJsModule} from 'ngx-typed-js';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import {CarouselModule} from 'ngx-owl-carousel-o';
   imports: [
     CommonModule,
     PagesRoutingModule,
-    CarouselModule
+    CarouselModule,
+    NgxTypedJsModule
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
