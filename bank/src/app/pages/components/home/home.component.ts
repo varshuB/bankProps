@@ -8,6 +8,33 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 })
 export class HomeComponent implements OnInit {
   slidesStore:any;
+customOptions4: OwlOptions = {
+  nav: true,
+  loop: true,
+  mouseDrag: true,
+  touchDrag: true,
+  pullDrag: true,
+  dots: false,
+  autoplay: true,
+  navSpeed: 100,
+  navText: ['', ''],
+  responsive: {
+    0: {
+      items: 1
+    },
+    400: {
+      items: 1
+    },
+    740: {
+      items: 1
+    },
+    940: {
+      items: 1
+    }
+  },
+}
+
+
 
   constructor() { }
   customOptions: OwlOptions = {
