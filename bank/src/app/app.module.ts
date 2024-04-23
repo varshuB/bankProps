@@ -1,17 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
-
+import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutModule } from "./layout/layout.module";
 import { PagesModule } from './pages/pages.module';
-import { RouterModule } from '@angular/router';
-import{BrowserAnimationsModule} from '@angular/platform-browser/animations'
-// import {MatExpansionModule} from "@angular/material/expansion";
-// import { MaterialModule } from '@angular/material';
-import {CarouselModule} from 'ngx-owl-carousel-o';
-// import { Ng5SliderModule } from 'ng5-slider';
-
+import { RouterModule } from '@angular/router'; 
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 @NgModule({
   declarations: [
     AppComponent
@@ -21,13 +16,14 @@ import {CarouselModule} from 'ngx-owl-carousel-o';
     AppRoutingModule,
     LayoutModule,
     PagesModule,
-    RouterModule,
+    CarouselModule,
     BrowserAnimationsModule,
-    CarouselModule
+    CarouselModule,
     // CarouselModule
     // MatExpansionModule,
     // MaterialModule
     // Ng5SliderModule
+    RouterModule
   ],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
