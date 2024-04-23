@@ -20,6 +20,12 @@ section {
         max-width: 1140px;
     }
 }
+.btn1{
+    margin-top:20px;
+}
+.form1{
+    height: 1150px;
+}
 
 .container {
     width: 100%;
