@@ -9,7 +9,7 @@ import { PrivatePropertiesComponent } from './components/private-properties/priv
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { FaqComponent } from './components/faq/faq.component';
 import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-iba.component';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,8 @@ import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-ib
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    FormsModule,
   ]
 })
 export class PagesModule { }
