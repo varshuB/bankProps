@@ -6,28 +6,41 @@
             <source src="../../../../assets/video/7.mp4" type="video/mp4">
         </video>
     </div>
+
+
     <div id="hero-area" class="main-search-inner search-2 vid">
-        <div class="container vid" data-aos="">
+        <div class="container vid aos-init aos-animate" data-aos="zoom-in">
             <div class="row">
                 <div class="col-md-12">
                     <div class="hero-inner2 headhome">
                         <!-- Welcome Text -->
-                        <div class="welcome-text row" style="padding-bottom: 15px;">
-                            <div class="">
-                            <!-- <h1 class="head1">Luxury</h1> -->
-                            </div>
-                                <!-- <br class="d-md-none"> -->
+                        <!-- <div class="welcome-text" style="padding-bottom: 15px;"> -->
+                        <div class="welcome-text">
+
                             <div>
+
+                                <h1 class="h1">Luxury</h1>
+                            </div>
+                                <br class="d-md-none">
+                                <!-- <span class="typed border-bottom">Mansion </span><span
+                                    class="typed-cursor typed-cursor--blink">|</span> -->
+                                <ngx-typed-js [strings]="['Mansion', 'Commerical Properties','Hotels']" [loop]='true'
+                                    [typeSpeed]="80" [shuffle]="true" [showCursor]="false">
+                                    <h1 class="typing" style="color:#fff;"></h1>
+                                </ngx-typed-js>
+                            <!-- </h1> -->
+
+                            <!-- <div>
                                 <span class="typed border-bottom ">
-                                    <h1>Luxury</h1>
+                                    <h1 class="head1">Luxury</h1>
                                     <ngx-typed-js [strings]="['Mansion', 'Commerical Properties','Hotels']"
                                         [loop]='true' [typeSpeed]="80" [shuffle]="true" [showCursor]="false" >
 
                                         <h1 class="typing" style="color:#fff;"></h1>
                                     </ngx-typed-js>
                                 </span>
-                            </div>
-                            
+                            </div> -->
+
 
                         </div>
                         <!--/ End Welcome Text -->
@@ -231,9 +244,9 @@
         </div>
         <owl-carousel-o [options]="customOptions1">
             <ng-template carouselSlide>
-                <div class="agents-grid">
+                <div class="agents-grid"> 
                     <div class="landscapes ">
-                        <div class="project-single containerdi" style="width: 320px;">
+                        <div class="project-single containerdi" style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head container1">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -294,7 +307,7 @@
             <ng-template carouselSlide>
                 <div class="agents-grid">
                     <div class="landscapes">
-                        <div class="project-single" style="width: 320px;">
+                        <div class="project-single" style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -355,7 +368,7 @@
             <ng-template carouselSlide>
                 <div class="agents-grid">
                     <div class="people">
-                        <div class="project-single" style="width: 320px;">
+                        <div class="project-single" style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -415,7 +428,7 @@
             <ng-template carouselSlide>
                 <div class="agents-grid">
                     <div class="people landscapes no-pb pbp-3">
-                        <div class="project-single" style="width: 320px;">
+                        <div class="project-single" style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -475,7 +488,7 @@
             <ng-template carouselSlide>
                 <div class="agents-grid">
                     <div class="people landscapes no-pb pbp-3">
-                        <div class="project-single" style="width: 320px;">
+                        <div class="project-single" style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -535,7 +548,7 @@
             <ng-template carouselSlide>
                 <div class="agents-grid">
                     <div class="landscapes">
-                        <div class="project-single " style="width: 320px;">
+                        <div class="project-single " style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -592,10 +605,10 @@
                     </div>
                 </div>
             </ng-template>
-            <ng-template carouselSlide>
+            <ng-template carouselSlide>  
                 <div class="agents-grid">
                     <div class="people">
-                        <div class="project-single" style="width: 320px;">
+                        <div class="project-single" style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -655,7 +668,7 @@
             <ng-template carouselSlide>
                 <div class="agents-grid">
                     <div class="people">
-                        <div class="project-single" style="width: 320px;">
+                        <div class="project-single" style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -715,7 +728,7 @@
             <ng-template carouselSlide>
                 <div class="agents-grid">
                     <div class="people landscapes no-pb pbp-3">
-                        <div class="project-single no-mb last" style="width: 320px;">
+                        <div class="project-single no-mb last" style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -775,7 +788,7 @@
             <ng-template carouselSlide>
                 <div class="agents-grid">
                     <div class="landscapes">
-                        <div class="project-single" data-aos="" style="width: 320px;">
+                        <div class="project-single" data-aos="" style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -835,7 +848,7 @@
             <ng-template carouselSlide>
                 <div class="agents-grid">
                     <div class="landscapes">
-                        <div class="project-single" data-aos="" style="width: 320px;">
+                        <div class="project-single" data-aos="" style="width: 290px; margin-left: 10px;">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->
@@ -895,7 +908,7 @@
             <ng-template carouselSlide>
                 <div class="agents-grid">
                     <div class="people">
-                        <div class="project-single" style="width: 320px; ">
+                        <div class="project-single" style="width: 290px; margin-left: 10px; ">
                             <div class="project-inner project-head">
                                 <div class="homes">
                                     <!-- homes img -->

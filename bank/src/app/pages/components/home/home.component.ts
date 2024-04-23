@@ -13,6 +13,7 @@ export class HomeComponent implements OnInit {
   customOptions: OwlOptions = {
     nav: true,
     loop: true,
+    margin:10,
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,

@@ -15,6 +15,26 @@
 
 }
 .head1{
-   padding-right: 15px;
-   padding-left: 250px;
+   /* padding-right: 25px; */
+   padding-left: 500px;
 }
+
+.topProp{
+position: relative;
+    background: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+    border: none;
+}
+
+.carousel-item {
+    margin-left: 10px;
+  }
+  .carousel-item:first-child {
+    margin-left: 0;
+  }
+
+  .owl-carousel .owl-item img{
+    padding: 100px;
+  }
