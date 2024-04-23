@@ -12,6 +12,7 @@ import {CarouselModule} from 'ngx-owl-carousel-o';
 import {NgxTypedJsModule} from 'ngx-typed-js';
 
 import { FormsModule } from '@angular/forms';
+import { RegisterFormComponent } from './components/register-form/register-form.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     PrivatePropertiesComponent,
     AboutUsComponent,
     FaqComponent,
-    ArticalOnIBAComponent
+    ArticalOnIBAComponent,
+    RegisterFormComponent
   ],
   imports: [
     CommonModule,
