@@ -11,6 +11,7 @@ import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-ib
 import {CarouselModule} from 'ngx-owl-carousel-o';
 import {NgxTypedJsModule} from 'ngx-typed-js';
 
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {NgxTypedJsModule} from 'ngx-typed-js';
     CommonModule,
     PagesRoutingModule,
     CarouselModule,
-    NgxTypedJsModule
+    NgxTypedJsModule,
+    FormsModule
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
