@@ -7,6 +7,8 @@ import { LayoutModule } from "./layout/layout.module";
 import { PagesModule } from './pages/pages.module';
 import { RouterModule } from '@angular/router'; 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent
@@ -19,6 +21,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
     CarouselModule,
     BrowserAnimationsModule,
     CarouselModule,
+    MatDialogModule,
+    MatButtonModule,
     // CarouselModule
     // MatExpansionModule,
     // MaterialModule
