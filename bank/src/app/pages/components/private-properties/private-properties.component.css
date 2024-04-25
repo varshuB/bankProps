@@ -378,7 +378,7 @@ ul {
 
 .listBtn {
     color: #121B22 !important;
-    /* border: 1px solid #121B22; */
+    border: 1px solid #121B22;
     margin-left: 5px;
     border-radius: 2px;
     background: transparent;
@@ -392,6 +392,13 @@ ul {
     border-radius: 2px;
     background: transparent;
     padding: 5px 9px;
+}
+.lde:hover{
+    background: #FF385C;
+    i{
+        color: #fff;
+    }
+    
 }
 
 .inner-pages .active-view-btn {
