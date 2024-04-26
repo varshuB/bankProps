@@ -7,9 +7,13 @@ import { LayoutModule } from "./layout/layout.module";
 import { PagesModule } from './pages/pages.module';
 import { RouterModule } from '@angular/router'; 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatButtonModule} from '@angular/material/button';
+import { AdminModule } from './Admin/admin.module';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -19,11 +23,10 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
     CarouselModule,
     BrowserAnimationsModule,
     CarouselModule,
-    // CarouselModule
-    // MatExpansionModule,
-    // MaterialModule
-    // Ng5SliderModule
-    RouterModule
+    MatDialogModule,
+    MatButtonModule,
+    RouterModule,
+    AdminModule
   ],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],

@@ -11,7 +11,7 @@
     margin-left: auto;
 }
 .headings h1 {
-    margin-top: 7.5rem;
+    margin-top: 30px;
     font-size: 26px;
     color: #fff;
 }
@@ -23,4 +23,16 @@
     font-size: 1rem;
     transition: all .5s ease;
     text-decoration: none;
+}
+.para
+{
+    margin-bottom: 40px;
+}
+h2 a{
+    text-decoration: none;
+    color: #fff;
+}
+h2 a:hover
+{
+    color:#dc3545
 }
