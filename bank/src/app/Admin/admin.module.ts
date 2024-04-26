@@ -28,6 +28,7 @@ import { UserListComponent } from './Component/pages/Users/UserList/user-list/us
     CommonModule,
     AdminRoutingModule
   ],
+  exports:[SignInComponent],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AdminModule { }
