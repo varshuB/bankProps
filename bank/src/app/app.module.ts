@@ -9,9 +9,11 @@ import { RouterModule } from '@angular/router';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
+import { AdminModule } from './Admin/admin.module';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
@@ -23,11 +25,8 @@ import {MatButtonModule} from '@angular/material/button';
     CarouselModule,
     MatDialogModule,
     MatButtonModule,
-    // CarouselModule
-    // MatExpansionModule,
-    // MaterialModule
-    // Ng5SliderModule
-    RouterModule
+    RouterModule,
+    AdminModule
   ],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
