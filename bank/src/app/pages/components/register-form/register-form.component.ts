@@ -8,5 +8,18 @@ import { Component } from '@angular/core';
 export class RegisterFormComponent {
 
 
-  
+  openLogin: boolean =true;
+  openRegister!: boolean
+
+
+  login() {
+    this.openLogin = true;
+    this.openRegister = false;
+  }
+
+  register() {
+    this.openRegister = true;
+    this.openLogin = false;
+  }
+
 }
