@@ -16,7 +16,7 @@ export class HeaderComponent {
   openPopUp(){
     this.dialog.open(RegisterFormComponent, {
       width:'500px',
-      height:'500px',
+      height:'600px',
     })
   
   }
