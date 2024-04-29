@@ -10,6 +10,20 @@ import { RecoverpwComponent } from './Component/pages/Authentication/RecoverPass
 import { UserProfileComponent } from './Component/pages/Users/UserProfile/user-profile/user-profile.component';
 import { UserAddComponent } from './Component/pages/Users/AddUser/user-add/user-add.component';
 import { UserListComponent } from './Component/pages/Users/UserList/user-list/user-list.component';
+import { BillingComponent } from './Component/pages/SpecialPages/billing/billing.component';
+import { CalenderComponent } from './Component/pages/SpecialPages/calender/calender.component';
+import { KanbanComponent } from './Component/pages/SpecialPages/kanban/kanban.component';
+import { PricingComponent } from './Component/pages/SpecialPages/pricing/pricing.component';
+import { RtlSupportComponent } from './Component/pages/SpecialPages/rtl-support/rtl-support.component';
+import { TimeLineComponent } from './Component/pages/SpecialPages/time-line/time-line.component';
+import { Error404Component } from './Component/pages/Utilities/error404/error404.component';
+import { Error500Component } from './Component/pages/Utilities/error500/error500.component';
+import { MaintenanceComponent } from './Component/pages/Utilities/maintenance/maintenance.component';
+import { HorizontalComponent } from './Component/Home/MenuStyle/horizontal/horizontal.component';
+import { DualHorizontalComponent } from './Component/Home/MenuStyle/dual-horizontal/dual-horizontal.component';
+import { DualCompactComponent } from './Component/Home/MenuStyle/dual-compact/dual-compact.component';
+import { BoxedHorizontalComponent } from './Component/Home/MenuStyle/boxed-horizontal/boxed-horizontal.component';
+import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxed-fancy.component';
 
 
 @NgModule({
@@ -22,7 +36,21 @@ import { UserListComponent } from './Component/pages/Users/UserList/user-list/us
     RecoverpwComponent,
     UserProfileComponent,
     UserAddComponent,
-    UserListComponent
+    UserListComponent,
+    BillingComponent,
+    CalenderComponent,
+    KanbanComponent,
+    PricingComponent,
+    RtlSupportComponent,
+    TimeLineComponent,
+    Error404Component,
+    Error500Component,
+    MaintenanceComponent,
+    HorizontalComponent,
+    DualHorizontalComponent,
+    DualCompactComponent,
+    BoxedHorizontalComponent,
+    BoxedFancyComponent
   ],
   imports: [
     CommonModule,
