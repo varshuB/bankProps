@@ -56,7 +56,7 @@ import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxe
     CommonModule,
     AdminRoutingModule
   ],
-  exports:[SignInComponent, RecoverpwComponent,SignUpComponent,UserAddComponent,UserListComponent, ConfirmMailComponent],
+  exports:[SignInComponent, RecoverpwComponent,SignUpComponent,UserAddComponent,UserListComponent, ConfirmMailComponent,HorizontalComponent,DualHorizontalComponent,DualCompactComponent,BoxedHorizontalComponent,BoxedFancyComponent,Error404Component,Error500Component,MaintenanceComponent],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AdminModule { }
