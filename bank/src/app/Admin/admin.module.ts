@@ -28,7 +28,7 @@ import { UserListComponent } from './Component/pages/Users/UserList/user-list/us
     CommonModule,
     AdminRoutingModule
   ],
-  exports:[SignInComponent, RecoverpwComponent,SignUpComponent,UserAddComponent,UserListComponent],
+  exports:[SignInComponent, RecoverpwComponent,SignUpComponent,UserAddComponent,UserListComponent, ConfirmMailComponent],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AdminModule { }
