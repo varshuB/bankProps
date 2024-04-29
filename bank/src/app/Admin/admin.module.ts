@@ -56,7 +56,28 @@ import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxe
     CommonModule,
     AdminRoutingModule
   ],
-  exports:[SignInComponent, RecoverpwComponent,SignUpComponent,UserAddComponent,UserListComponent, ConfirmMailComponent,BillingComponent,CalenderComponent,KanbanComponent,PricingComponent,RtlSupportComponent,TimeLineComponent],
-  schemas:[CUSTOM_ELEMENTS_SCHEMA]
+  exports: [
+    SignInComponent,
+    RecoverpwComponent,
+    SignUpComponent,
+    UserAddComponent,
+    UserListComponent,
+    ConfirmMailComponent,
+    BillingComponent,
+    CalenderComponent,
+    KanbanComponent,
+    PricingComponent,
+    RtlSupportComponent,
+    TimeLineComponent,
+    HorizontalComponent,
+    DualHorizontalComponent,
+    DualCompactComponent,
+    BoxedHorizontalComponent,
+    BoxedFancyComponent,
+    Error404Component,
+    Error500Component,
+    MaintenanceComponent
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AdminModule { }
