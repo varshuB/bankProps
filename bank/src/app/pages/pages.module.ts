@@ -13,8 +13,6 @@ import {NgxTypedJsModule} from 'ngx-typed-js';
 
 import { FormsModule } from '@angular/forms';
 import { RegisterFormComponent } from './components/register-form/register-form.component';
-import {MatDialogModule} from '@angular/material/dialog';
-import {MatButtonModule} from '@angular/material/button';
 
 
 @NgModule({
@@ -34,8 +32,6 @@ import {MatButtonModule} from '@angular/material/button';
     CarouselModule,
     NgxTypedJsModule,
     FormsModule,
-    MatDialogModule,
-    MatButtonModule
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })

@@ -5,10 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LayoutModule } from "./layout/layout.module";
 import { PagesModule } from './pages/pages.module';
-import { RouterModule } from '@angular/router'; 
+import { RouterModule } from '@angular/router';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
-import {MatDialogModule} from '@angular/material/dialog';
-import {MatButtonModule} from '@angular/material/button';
+// import {MatDialogModule} from '@angular/material/dialog';
+// import {MatButtonModule} from '@angular/material/button';
 import { AdminModule } from './Admin/admin.module';
 
 @NgModule({
@@ -22,9 +22,8 @@ import { AdminModule } from './Admin/admin.module';
     PagesModule,
     CarouselModule,
     BrowserAnimationsModule,
-    CarouselModule,
-    MatDialogModule,
-    MatButtonModule,
+    // MatDialogModule,
+    // MatButtonModule,
     RouterModule,
     AdminModule
   ],
