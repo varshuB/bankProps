@@ -9,6 +9,21 @@ import { ConfirmMailComponent } from './Component/pages/Authentication/ConfirmMa
 import { UserAddComponent } from './Component/pages/Users/AddUser/user-add/user-add.component';
 import { UserListComponent } from './Component/pages/Users/UserList/user-list/user-list.component';
 import { UserProfileComponent } from './Component/pages/Users/UserProfile/user-profile/user-profile.component';
+import { Error404Component } from './Component/pages/Utilities/error404/error404.component';
+import { Error500Component } from './Component/pages/Utilities/error500/error500.component';
+import { MaintenanceComponent } from './Component/pages/Utilities/maintenance/maintenance.component';
+import { BillingComponent } from './Component/pages/SpecialPages/billing/billing.component';
+// import {CalendarComponent } from '@fullcalendar/core/CalendarComponent';
+import { KanbanComponent } from './Component/pages/SpecialPages/kanban/kanban.component';
+import { PricingComponent } from './Component/pages/SpecialPages/pricing/pricing.component';
+import { RtlSupportComponent } from './Component/pages/SpecialPages/rtl-support/rtl-support.component';
+import { TimeLineComponent } from './Component/pages/SpecialPages/time-line/time-line.component';
+import { HorizontalComponent } from './Component/Home/MenuStyle/horizontal/horizontal.component';
+import { DualHorizontalComponent } from './Component/Home/MenuStyle/dual-horizontal/dual-horizontal.component';
+import { DualCompactComponent } from './Component/Home/MenuStyle/dual-compact/dual-compact.component';
+import { BoxedHorizontalComponent } from './Component/Home/MenuStyle/boxed-horizontal/boxed-horizontal.component';
+import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxed-fancy.component';
+import { CalenderComponent } from './Component/pages/SpecialPages/calender/calender.component';
 
 const routes: Routes = [
   {
@@ -16,17 +31,43 @@ const routes: Routes = [
     redirectTo: 'index',
     pathMatch: 'full',
   },
+
+  // dashboard
   { path: "index", component: IndexComponent},
 
+  // authentication
   { path: "signIn", component: SignInComponent},
   { path: "signUp", component: SignUpComponent},  
   { path: "lockScreen", component: LockScreenComponent},
   { path: "confirmMail", component: ConfirmMailComponent},
   { path: "recoverPw", component: RecoverpwComponent},
 
+  // users
   { path: "addUser", component: UserAddComponent},
   { path: "userList", component: UserListComponent},
   { path: "userProfile", component: UserProfileComponent},
+  { path: "userPrivacySetting", component: BoxedFancyComponent},
+
+  // utilities
+  { path: "error404", component: Error404Component},
+  { path: "error500", component: Error500Component},
+  { path: "maintenance", component: MaintenanceComponent},
+
+  // special pages
+  { path: "billing", component: BillingComponent},
+  { path: "calender", component: CalenderComponent},
+  { path: "kanban", component: KanbanComponent},
+  { path: "pricing", component: PricingComponent},
+  { path: "rtl", component: RtlSupportComponent},
+  { path: "timeline", component: TimeLineComponent},
+
+  // menu style
+  { path: "horizontal", component: HorizontalComponent},
+  { path: "dualHorizontal", component: DualHorizontalComponent},
+  { path: "dualCompact", component: DualCompactComponent},
+  { path: "boxedHorizontal", component: BoxedHorizontalComponent},
+  { path: "boxedFancy", component: BoxedFancyComponent},
+
 
 ];
 
