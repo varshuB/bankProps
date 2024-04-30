@@ -1,0 +1,56 @@
+@media (min-width: 1400px) {
+    .auth-card {
+        padding: 0 6.25rem;
+    }
+}
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+.shadow-none {
+
+    box-shadow: none !important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+  border: none !important;
+
+}
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+.logo-main .logo-normal {
+    display: block;
+}
+.ms-3 {
+    margin-left: 1rem !important;
+}
+.mb-2 {
+    margin-bottom: .5rem !important;
+}
+
+@media (min-width: 1200px) {
+    h2, .h2 {
+        font-size: 2rem;
+        font-weight: 500;
+    line-height: 1.2;
+    }
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+@media (min-width: 1200px) {
+    h4, .h4 {
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-weight: 500;
+    }
+}
