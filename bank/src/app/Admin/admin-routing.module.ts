@@ -9,6 +9,7 @@ import { ConfirmMailComponent } from './Component/pages/Authentication/ConfirmMa
 import { UserAddComponent } from './Component/pages/Users/AddUser/user-add/user-add.component';
 import { UserListComponent } from './Component/pages/Users/UserList/user-list/user-list.component';
 import { UserProfileComponent } from './Component/pages/Users/UserProfile/user-profile/user-profile.component';
+import { AdminComponent } from './Component/pages/Admin/admin/admin.component';
 
 const routes: Routes = [
   {
@@ -19,7 +20,7 @@ const routes: Routes = [
   { path: "index", component: IndexComponent},
 
   { path: "signIn", component: SignInComponent},
-  { path: "signUp", component: SignUpComponent},  
+  { path: "signUp", component: SignUpComponent},
   { path: "lockScreen", component: LockScreenComponent},
   { path: "confirmMail", component: ConfirmMailComponent},
   { path: "recoverPw", component: RecoverpwComponent},
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: "addUser", component: UserAddComponent},
   { path: "userList", component: UserListComponent},
   { path: "userProfile", component: UserProfileComponent},
+  { path: "admin", component: AdminComponent},
 
 ];
 

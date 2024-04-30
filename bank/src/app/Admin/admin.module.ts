@@ -24,6 +24,7 @@ import { DualHorizontalComponent } from './Component/Home/MenuStyle/dual-horizon
 import { DualCompactComponent } from './Component/Home/MenuStyle/dual-compact/dual-compact.component';
 import { BoxedHorizontalComponent } from './Component/Home/MenuStyle/boxed-horizontal/boxed-horizontal.component';
 import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxed-fancy.component';
+import { AdminComponent } from './Component/pages/Admin/admin/admin.component';
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxe
     DualHorizontalComponent,
     DualCompactComponent,
     BoxedHorizontalComponent,
-    BoxedFancyComponent
+    BoxedFancyComponent,
+    AdminComponent
   ],
   imports: [
     CommonModule,
@@ -78,7 +80,8 @@ import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxe
     Error500Component,
     MaintenanceComponent,
     UserProfileComponent,
-    LockScreenComponent
+    LockScreenComponent,
+    AdminComponent
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
