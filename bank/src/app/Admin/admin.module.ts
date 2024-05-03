@@ -24,6 +24,7 @@ import { DualHorizontalComponent } from './Component/Home/MenuStyle/dual-horizon
 import { DualCompactComponent } from './Component/Home/MenuStyle/dual-compact/dual-compact.component';
 import { BoxedHorizontalComponent } from './Component/Home/MenuStyle/boxed-horizontal/boxed-horizontal.component';
 import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxed-fancy.component';
+import { PropertyDetailsComponent } from '../pages/components/property-details/property-details.component';
 
 
 @NgModule({

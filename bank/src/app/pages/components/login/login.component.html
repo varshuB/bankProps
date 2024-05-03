@@ -1,0 +1,107 @@
+
+
+<!-- register -->
+
+
+<div>
+
+    <!--===BREADCRUMB PART START====-->
+      <section class="wsus__breadcrumb" style="background: url(../../../../assets/Admin/images/dashboard/top-header3.png);">
+        <div class="wsus_bread_overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h4>Registration</h4>
+                        <nav style="--bs-breadcrumb-divider: '-';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a routerLink="/index">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Registration</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--===BREADCRUMB PART END====-->
+    
+    
+    
+    
+    <!--=======LOGON PART START=========-->
+    <section class="wsus__logon mt_45 mb_45">
+        <div class="container">
+            <div class="row justify-content-center">
+                
+                <div  *ngIf="!hideDiv" class="col-xl-5 col-md-6 offset-xl-1 ml_to_mr">
+                    <div class="wsus__login_form" id="reg_button">
+                        <h3>Register As</h3>
+                        <div class="text-center">
+                       
+    
+                            <button type="button" (click)="indiv()" class="common_btn w-100 individual"  attr-type="indv_reg"><i id="reg-spinner" class="loading-icon fa fa-spin fa-spinner d-none"></i> Individual</button> <br><br>
+    
+                            <button type="button" (click)="indiv()" class="common_btn w-100 agent" attr-type="agent_reg"><i id="reg-spinner" class="loading-icon fa fa-spin fa-spinner d-none" ></i> Agents</button>
+                        </div> 
+                      
+                    </div>
+                </div>
+    
+                <div class="text-center" id="registration_form" *ngIf="isShow" >
+                    <div class="col-xl-5 col-md-6 m-auto"  >
+                        <div class="wsus__login_form">
+                            <h3>Don&#039;t Have An Account? Please Register</h3>
+                
+    
+                            <form  action="#" id="registerFormSubmitt"  class="row g-3 needs-validation  registerform" novalidate>
+                                <input type="hidden" name="_token" value="rarwmVFZl75kFznrgsqZZbOwhf7KmTzhJW1PDQfg">                            
+                                <input type="hidden" name="reg_type" id="reg_type"/>
+                                <div class="form-group">
+                                    <div class="input-group input-group-lg">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <i class="fad fa-envelope"></i>
+                                            </span>
+                                        </div>
+                                        <input class="form-control form-control-lg" type="email" name="email" id="regiEmail" placeholder="Please Enter Email " required>
+                                    </div>
+                                </div>
+    
+                                <div class="form-group">
+                                    <div class="input-group input-group-lg">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text">
+                                                <i class="fas fa-phone"></i>
+                                            </span>
+                                        </div>
+                                        <input class="form-control form-control-lg" type="number" name="number" id="regNumber" placeholder="Please Enter Phone No" required>
+                                    </div>
+                                </div>
+                            
+    
+                                
+                                <button  class="common_btn" id="registerBtnn" type="submit"><i id="reg-spinner" class="loading-icon fa fa-spin fa-spinner d-none"></i> Create Account</button>
+    
+                            
+                            </form>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <!--======= LOGON PART END========-->
+    
+     <!--=====SCROLL BUTTON START=====-->
+     <div class="wsus__scroll_btn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!--=====SCROLL BUTTON END=====-->
+    
+    
+    
+    
+    <!-- Mirrored from bankprops.com/registration by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 05:03:54 GMT -->
+    
+    

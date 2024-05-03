@@ -9,7 +9,7 @@
                     <!-- Left Side Content -->
                     <div class="left-side">
                         <!-- Logo -->
-                        <div id="logo">
+                        <div id="logo" class="logo">
                             <a href="index.html"><img src="../../../../assets/images/logo.png" alt=""></a>
                         </div>
                         <!-- Mobile Navigation -->
@@ -22,7 +22,7 @@
                         </div>
                         <!-- Main Navigation -->
                         <nav id="navigation" class="style-1">
-                            <ul id="responsive">
+                            <ul id="responsive" class="list-inline">
                                 <li><a href="index.html">Home</a></li>
                                 <li><a routerLink="/about-us">About Us</a></li>
                                 <li><a>Properties</a>
@@ -38,26 +38,31 @@
                                     </ul>
                                 </li>
                                 <li><a routerLink="/contact">Contact</a></li>
+                                <li id="user"> <div class="show-lang" routerLink="/register">
+                                    <span><i class="fas fa-globe-americas" ></i><strong>User</strong></span>
+                                </div></li>
+                                <li><div class="show-reg-form modal-open" routerLink="/agent"><a>Agent</a></div></li>
+                                
 
                             </ul>
-                            <div class="right-side d-none d-none d-lg-none d-xl-flex sign ml-0">
+                            <!-- <div class="right-side d-none d-none d-lg-none d-xl-flex sign ml-0"> -->
                                 <!-- Header Widget -->
-                                <div class="header-widget sign-in">
-                                    <div class="show-reg-form modal-open" (click)="openPopUp()"><a>Agent</a></div>
-                                </div>
+                                <!-- <div class="header-widget sign-in">
+                                    <div class="show-reg-form modal-open" routerLink="/agent"><a>Agent</a></div>
+                                </div> -->
                                 <!-- Header Widget / End -->
-                            </div>
+                            <!-- </div> -->
                             <!-- <button mat-raised-button color="primary" (click)="openPopUp()">Open</button> -->
                             <!-- Right Side Content / End -->
 
                             <!-- lang-wrap-->
-                            <div class="header-user-menu user-menu add d-none d-lg-none d-xl-flex">
+                            <!-- <div class="header-user-menu user-menu add d-none d-lg-none d-xl-flex">
                                 <div class="lang-wrap">
-                                    <div class="show-lang" (click)="openPopUp()">
+                                    <div class="show-lang" routerLink="/register">
                                         <span><i class="fas fa-globe-americas" ></i><strong>User</strong></span>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </nav>
                         <!-- Main Navigation / End -->
                     </div>

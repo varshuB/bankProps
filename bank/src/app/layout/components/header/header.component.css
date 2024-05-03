@@ -6,3 +6,14 @@
 #navigation ul {
     margin-top: 9px;
 }
+#logo{
+    width: 285px !important;
+}
+#user
+{
+    margin-top: 5px;
+}
+.fa-globe-americas
+{
+    top: 2px !important;
+}
