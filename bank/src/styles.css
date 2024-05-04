@@ -5579,17 +5579,14 @@ element.style {
   top: 3px;
 }
 
-.login-and-register-form .soc-log a.facebook-log {
+/* .login-and-register-form .soc-log a.facebook-log {
   background: #3b5998;
-}
+} */
 
 .login-and-register-form .soc-log a.twitter-log {
   background: #55acee;
 }
 
-.login-and-register-form .close-reg:hover, .custom-form .log-submit-btn:hover, .soc-log a:hover {
-  background: #2F3B59;
-}
 
 .login-and-register-form .log-separator span {
   position: relative;
@@ -7778,10 +7775,13 @@ html input[disabled] {
 
 .show-lang span strong {
   padding-left: 10px;
-  top: -2px;
+  top: 2px;
   font-size: 16px;
   font-weight: 500;
   position: relative;
+}
+.show-lang span strong i{
+  top:2px;
 }
 
 .divider {
@@ -30336,7 +30336,7 @@ input[type=submit].btn-block {
     padding: .75rem 1rem;
     margin-bottom: 1rem;
     list-style: none;
-    background-color: #e9ecef;
+    
     border-radius: .25rem
 }
 
@@ -36497,3 +36497,6 @@ a.text-dark:hover {
     background: #2f3341 none repeat scroll 0 0;
     border-radius: 0;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

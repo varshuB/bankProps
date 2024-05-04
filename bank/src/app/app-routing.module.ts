@@ -4,8 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'pages',
+    redirectTo: 'home',
     pathMatch: 'full',
+  },
+  {
+    path: 'admin',
+    loadChildren: () => import('./Admin/admin.module').then((m) => m.AdminModule),
   },
   {
     path: 'pages',

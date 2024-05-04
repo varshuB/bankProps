@@ -1,0 +1,19 @@
+#header {
+    position: relative;
+    z-index: 999;
+    padding: 0px !important;
+}
+#navigation ul {
+    margin-top: 9px;
+}
+#logo{
+    width: 285px !important;
+}
+#user
+{
+    margin-top: 5px;
+}
+.fa-globe-americas
+{
+    top: 2px !important;
+}
