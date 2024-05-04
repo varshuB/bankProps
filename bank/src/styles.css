@@ -7775,10 +7775,13 @@ html input[disabled] {
 
 .show-lang span strong {
   padding-left: 10px;
-  top: -2px;
+  top: 2px;
   font-size: 16px;
   font-weight: 500;
   position: relative;
+}
+.show-lang span strong i{
+  top:2px;
 }
 
 .divider {
@@ -30333,7 +30336,7 @@ input[type=submit].btn-block {
     padding: .75rem 1rem;
     margin-bottom: 1rem;
     list-style: none;
-    background-color: #e9ecef;
+    
     border-radius: .25rem
 }
 

@@ -15,6 +15,8 @@ import { FormsModule } from '@angular/forms';
 import { RegisterFormComponent } from './components/register-form/register-form.component';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
+import { LoginComponent } from './components/login/login.component';
+import { PropertyDetailsComponent } from './components/property-details/property-details.component';
 
 
 @NgModule({
@@ -26,7 +28,9 @@ import {MatButtonModule} from '@angular/material/button';
     AboutUsComponent,
     FaqComponent,
     ArticalOnIBAComponent,
-    RegisterFormComponent
+    RegisterFormComponent,
+    LoginComponent,
+    PropertyDetailsComponent
   ],
   imports: [
     CommonModule,
