@@ -90,9 +90,7 @@ div {
 .carouselSlidec2{
     height: 500px;
 }
-.containerdi{
 
-}
 .head1{
    padding-right: 15px;
    padding-left: 250px;
@@ -106,3 +104,11 @@ div {
     
  }   
 
+.rld-main-search {
+    margin-bottom: 0px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.2);
+}
