@@ -18,104 +18,40 @@
           <h3 class="mb-5">FREQUENTLY ASKED QUESTIONS</h3>
           <div class="row">
               <div class="col-lg-12 col-md-12">
-                  <ul class="accordion accordion-1 one-open">
-                      <li class="active">
-                          <div class="title">
-                              <span>What is the purpose of this Portal?</span>
-                          </div>
-                          <div class="content">
-                              <p>
-                                  This portal provides an enhanced user experience through seamless single window access to information by search based on the type and location of property put
-up for e-auction by Indian banks. The common platform also provides for smooth navigation to the bank e-auction site once a notified property is selected.
-                              </p>
-                          </div>
-                      </li>
-                      <li>
-                          <div class="title">
-                              <span>Does a user require registration/login to use the portal?</span>
-                          </div>
-                          <div class="content">
-                              <p>
-                                  User can directly access the portal using single sign on option from google, facebook or they can register as new customer using username and password.
-                              </p>
-                          </div>
-                      </li>
-                      <li>
-                          <div class="title">
-                              <span>What benefits are derived from this portal?</span>
-                          </div>
-                          <div class="content">
-                              <p>
-                                  Potential bidders can select segmented data bank-wise and as per location (States
-and Districts) across banks.
-                              </p>
-                          </div>
-                      </li>
-                      <li>
-                          <div class="title">
-                              <span>Is nature of ownership of property given?</span>
-                          </div>
-                          <div class="content">
-                              <p>
-                                  Information of the nature of ownership in the categories freehold, lease hold,
-cooperative society and others is available on the portal.
-                              </p>
-                          </div>
-                      </li>
-                      <li>
-                          <div class="title">
-                              <span>Is property classified in terms of its nature of use?</span>
-                          </div>
-                          <div class="content">
-                              <p>
-                                  Yes, property is searchable across residential &amp;  commercial Properties
-                              </p>
-                          </div>
-                      </li>
-                      <li>
-                          <div class="title">
-                              <span>What type of Commercial property information is available?</span>
-                          </div>
-                          <div class="content">
-                              <p>
-                                  Commercial property information is available with regard to type of property:
-Office, Shop, Mall, Godown, Plot
-                              </p>
-                          </div>
-                      </li>
-                      <li>
-                          <div class="title">
-                              <span>What comprises property details as provided by the banks?</span>
-                          </div>
-                          <div class="content">
-                              <p>
-                                  Property type, location, number of rooms ( in residential property) and type of
-ownership and reserve price range will enable bidders to compare similar properties. properties of interest from the displayed list by clicking to view the bank e auction date, reserve price and property address and description.  Photographs of properties that have been uploaded can also be viewed.
-                              </p>
-                          </div>
-                      </li>
-                      <li>
-                          <div class="title">
-                              <span>Can  bank property be bought without Auction ?</span>
-                          </div>
-                          <div class="content">
-                              <p>
-                                  Yes, it is definitely possible. Our team would assist in closing the deal on your behalf.
-                              </p>
-                          </div>
-                      </li>
-                      <li>
-                          <div class="title">
-                              <span>Does realhome share my information with others?</span>
-                          </div>
-                          <div class="content">
-                              <p>
-                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                              </p>
-                          </div>
-                      </li>
-                  </ul>
-                  <!--end of accordion-->
+
+
+                  <div class="accordian-heading" id="f1" (click)="accordion('f1')">What is the purpose of this Portal?<span class="pull-rigth up-icon" [class.icon]="id==='f1'"><i class="fa fa-chevron-up arrow1"></i></span></div>
+                  <div class="accordian-content" *ngIf="id ==='f1'"> This portal provides an enhanced user experience through seamless single window access to information by search based on the type and location of property put
+                    up for e-auction by Indian banks. The common platform also provides for smooth navigation to the bank e-auction site once a notified property is selected.</div>
+                
+                
+                  <div class="accordian-heading" id="f2" (click)="accordion('f2')">Does a user require registration/login to use the portal?<span class="pull-rigth up-icon"[class.icon]="id==='f2'"><i class="fa fa-chevron-up arrow2"></i></span></div>
+                  <div class="accordian-content" *ngIf="id ==='f2'">User can directly access the portal using single sign on option from google, facebook or they can register as new customer using username and password.</div>
+                  
+                  
+                  <div class="accordian-heading" id="f3" (click)="accordion('f3')">Is nature of ownership of property given?<span class="pull-rigth up-icon"[class.icon]="id==='f3'"><i class="fa fa-chevron-up arrow3"></i></span></div>
+                  <div class="accordian-content" *ngIf="id ==='f3'">Information of the nature of ownership in the categories freehold, lease hold,
+                    cooperative society and others is available on the portal.</div>
+                  
+                  <div class="accordian-heading" id="f4" (click)="accordion('f4')">Is property classified in terms of its nature of use?<span class="pull-rigth up-icon"[class.icon]="id==='f4'"><i class="fa fa-chevron-up arrow4"></i></span></div>
+                  <div class="accordian-content" *ngIf="id ==='f4'"> Yes, property is searchable across residential &amp;  commercial Properties</div>
+                  
+                  <div class="accordian-heading" id="f5" (click)="accordion('f5')">What type of Commercial property information is available?<span class="pull-rigth up-icon"[class.icon]="id==='f5'"><i class="fa fa-chevron-up arrow5"></i></span></div>
+                  <div class="accordian-content" *ngIf="id ==='f5'">  Commercial property information is available with regard to type of property:
+                    Office, Shop, Mall, Godown, Plot</div>
+                  
+                  <div class="accordian-heading" id="f6" (click)="accordion('f6')">What comprises property details as provided by the banks?<span class="pull-rigth up-icon"[class.icon]="id==='f6'"><i class="fa fa-chevron-up arrow6"></i></span></div>
+                  <div class="accordian-content" *ngIf="id ==='f6'"> Property type, location, number of rooms ( in residential property) and type of
+                    ownership and reserve price range will enable bidders to compare similar properties. properties of interest from the displayed list by clicking to view the bank e auction date, reserve price and property address and description.  Photographs of properties that have been uploaded can also be viewed.</div>
+                  
+                  <div class="accordian-heading" id="f7" (click)="accordion('f7')">Can  bank property be bought without Auction ?<span class="pull-rigth up-icon"[class.icon]="id==='f7'"><i class="fa fa-chevron-up arrow7"></i></span></div>
+                  <div class="accordian-content" *ngIf="id ==='f7'">Yes, it is definitely possible. Our team would assist in closing the deal on your behalf.</div>
+                 
+                  <div class="accordian-heading" id="f8" (click)="accordion('f8')">Does realhome share my information with others?<span class="pull-rigth up-icon"[class.icon]="id==='f8'"><i class="fa fa-chevron-up arrow8"></i></span></div>
+                  <div class="accordian-content" *ngIf="id ==='f8'">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente rem minus temporibus accusantium adipisci tempore, eum enim modi iusto ex tenetur sit! Consequuntur ea impedit quaerat saepe itaque doloribus iusto.</div>
+
+
+
               </div>
           </div>
       </div>

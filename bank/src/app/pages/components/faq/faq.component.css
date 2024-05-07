@@ -1,0 +1,95 @@
+.accordian-heading{
+    padding:10px;
+    cursor:pointer;
+    background: #fff;;
+    color:black;
+    font-weight: 600;
+    margin-top: 4px;
+    border-radius: 2px;
+    height: 50px
+}
+.accordian-heading:hover{
+    background-color: #FF385C;
+    color: black;
+ }
+ .accordian-heading:focus{
+    background-color: #FF385C;
+    color: black;
+ }
+
+.accordian-content{
+    transition: 4s ease-in-out;
+    padding:10px;
+    background:rgb(252,243,243);
+    border:1px solid rgb(255 225 225);
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    animation-name: slideDown;
+    /* animation-duration: 1s; */
+    /* -webkit-animation-duration: 1s; */
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+
+}
+.arrow5
+{
+    margin-left: 690px;
+}
+.arrow1
+{
+    margin-left: 850px;
+}
+.arrow2
+{
+    margin-left: 715px;
+}
+.arrow3
+{
+    margin-left:809px;
+}
+.arrow4
+{
+    margin-left: 748px;
+    
+}
+.arrow6
+{
+    margin-left: 692px; 
+}
+.arrow7
+{
+    margin-left: 771px;  
+}
+.arrow8
+{
+    margin-left: 752px;
+}
+@keyframes slideDown{
+    0%{
+        transfrom:translateY(-100%);
+    }
+    50%{
+        transfrom:translateY(8%);
+    }
+    65%{
+        transform:translateY(-4%);
+    }
+    80%{
+        transform: translateY(4%);
+    }
+    95%{
+        transform: translateY(-2%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+    
+}
+.up-icon{
+    transition: 0.2s ease-out;
+}
+.icon{
+    animation-name: icon;
+    transform: rotate(180deg);
+    transition: 0.2s ease-out;
+}
