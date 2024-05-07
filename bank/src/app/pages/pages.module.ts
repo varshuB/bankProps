@@ -17,6 +17,8 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
 import { LoginComponent } from './components/login/login.component';
 import { PropertyDetailsComponent } from './components/property-details/property-details.component';
+import { AgentComponent } from './components/agent/agent.component';
+import { LayoutModule } from '../layout/layout.module';
 
 
 @NgModule({
@@ -30,7 +32,8 @@ import { PropertyDetailsComponent } from './components/property-details/property
     ArticalOnIBAComponent,
     RegisterFormComponent,
     LoginComponent,
-    PropertyDetailsComponent
+    PropertyDetailsComponent,
+    AgentComponent
   ],
   imports: [
     CommonModule,
@@ -40,6 +43,7 @@ import { PropertyDetailsComponent } from './components/property-details/property
     FormsModule,
     MatDialogModule,
     MatButtonModule,
+    LayoutModule
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })

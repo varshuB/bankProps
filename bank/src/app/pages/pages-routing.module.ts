@@ -10,6 +10,7 @@ import { ArticalOnIBAComponent } from './components/artical-on-iba/artical-on-ib
 import { RegisterFormComponent } from './components/register-form/register-form.component';
 import { LoginComponent } from './components/login/login.component';
 import { PropertyDetailsComponent } from './components/property-details/property-details.component';
+import { AgentComponent } from './components/agent/agent.component';
 
 const routes: Routes = [
   {
@@ -18,7 +19,7 @@ const routes: Routes = [
     pathMatch: 'full',
   },
   { path: "register", component: RegisterFormComponent},
-  {path:"agent", component: LoginComponent},
+  {path:"agent", component: AgentComponent},
 
   { path: "home", component: HomeComponent},
   { path: "contact", component: ContactComponent},
