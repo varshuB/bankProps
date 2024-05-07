@@ -6,6 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./faq.component.css']
 })
 export class FaqComponent {
+id: any;
+accordion(ids:any) {
+  if(this.id==ids){
+    this.id='';
+  }
+  else{
+    this.id=ids;
+  }
 
-  isAccordionOpenGender:boolean=true;
+
 }
+
+}
+
+  // isAccordionOpenGender:boolean=true;
+
