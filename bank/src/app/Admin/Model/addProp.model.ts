@@ -1,0 +1,21 @@
+export class AddProperty{
+    PTrId!:any;
+    PropertyTitle!:string;
+    PropertyDescription!:string;
+    PropertyType!:string;
+    Area!:string;
+    Address!:string;
+    State!:string;
+    City!:string;
+    Country!:string;
+    Latitude!:string;
+    Longitude!:string;
+    PropertyFeature!:string;
+    ContactName!:string;
+    ContactEmail!:string;
+    ContactNumber!:number;
+    PropertyFileUploadLink!:string;
+    LandMark!:string;
+    PropertyTag!:string;
+    CurrentStatus!:string;
+}

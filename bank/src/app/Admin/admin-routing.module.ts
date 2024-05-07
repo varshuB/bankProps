@@ -25,6 +25,7 @@ import { DualCompactComponent } from './Component/Home/MenuStyle/dual-compact/du
 import { BoxedHorizontalComponent } from './Component/Home/MenuStyle/boxed-horizontal/boxed-horizontal.component';
 import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxed-fancy.component';
 import { CalenderComponent } from './Component/pages/SpecialPages/calender/calender.component';
+import { AddPropertyComponent } from './Component/pages/add-property/add-property.component';
 
 const routes: Routes = [
   {
@@ -35,6 +36,10 @@ const routes: Routes = [
 
   // dashboard
   { path: "index", component: IndexComponent},
+
+  // property
+
+  {path:"addProperty", component:AddPropertyComponent},
 
   // authentication
   { path: "signIn", component: SignInComponent},

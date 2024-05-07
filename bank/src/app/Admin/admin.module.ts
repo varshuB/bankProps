@@ -26,6 +26,7 @@ import { BoxedHorizontalComponent } from './Component/Home/MenuStyle/boxed-horiz
 import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxed-fancy.component';
 import { AdminComponent } from './Component/pages/Admin/admin/admin.component';
 import { PropertyDetailsComponent } from '../pages/components/property-details/property-details.component';
+import { AddPropertyComponent } from './Component/pages/add-property/add-property.component';
 
 
 @NgModule({
@@ -53,7 +54,8 @@ import { PropertyDetailsComponent } from '../pages/components/property-details/p
     DualCompactComponent,
     BoxedHorizontalComponent,
     BoxedFancyComponent,
-    AdminComponent
+    AdminComponent,
+    AddPropertyComponent
   ],
   imports: [
     CommonModule,
