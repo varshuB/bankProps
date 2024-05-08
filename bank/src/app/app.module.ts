@@ -10,6 +10,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations'
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
 import { AdminModule } from './Admin/admin.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { AdminModule } from './Admin/admin.module';
     MatDialogModule,
     MatButtonModule,
     RouterModule,
-    AdminModule
+    AdminModule,
   ],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
