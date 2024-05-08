@@ -27,6 +27,7 @@ import { BoxedFancyComponent } from './Component/Home/MenuStyle/boxed-fancy/boxe
 import { AdminComponent } from './Component/pages/Admin/admin/admin.component';
 import { PropertyDetailsComponent } from '../pages/components/property-details/property-details.component';
 import { AddPropertyComponent } from './Component/pages/add-property/add-property.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -59,7 +60,9 @@ import { AddPropertyComponent } from './Component/pages/add-property/add-propert
   ],
   imports: [
     CommonModule,
-    AdminRoutingModule
+    AdminRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [
     SignInComponent,

@@ -43,7 +43,7 @@ import { LayoutModule } from '../layout/layout.module';
     FormsModule,
     MatDialogModule,
     MatButtonModule,
-    LayoutModule
+    LayoutModule,
   ],
   schemas:[CUSTOM_ELEMENTS_SCHEMA]
 })
